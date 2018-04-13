@@ -29,4 +29,7 @@ body{
 .navbar a:visited {
     color: #ffffff
 }
+table {
+    width: 100%;
+}
 

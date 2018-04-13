@@ -6,6 +6,7 @@
     <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 
     <div class="navbar">
+        <script src="../javascript/myScript1.js"></script>
         <a class="active" href="Main.html">Home</a>
         <a href="projectlist.html">Project List</a>
         <a href="aboutme.html">About Me</a>
@@ -15,24 +16,74 @@
 </head>
 
 <body>
-<p> A block of text is text that is grouped together in some way, such as with the use of paragraphs or blockquotes on a Web page. Often times, the text takes on the shape of a square or rectangular "block". For example, the paragraph below is a block of text.
-    A block of text is text that is grouped together in some way, such as with the use of paragraphs or blockquotes on a Web page. Often times, the text takes on the shape of a square or rectangular "block". For example, the paragraph below is a block of text.</p>
-<p> A block of text is text that is grouped together in some way, such as with the use of paragraphs or blockquotes on a Web page. Often times, the text takes on the shape of a square or rectangular "block". For example, the paragraph below is a block of text.</p>
-
+<p> A block of text is text that is grouped together in some way, such as with the use of paragraphs or blockquotes on a
+    Web page. Often times, the text takes on the shape of a square or rectangular "block". For example, the paragraph
+    below is a block of text.
+    A block of text is text that is grouped together in some way, such as with the use of paragraphs or blockquotes on a
+    Web page. Often times, the text takes on the shape of a square or rectangular "block". For example, the paragraph
+    below is a block of text.</p>
+<p> A block of text is text that is grouped together in some way, such as with the use of paragraphs or blockquotes on a
+    Web page. Often times, the text takes on the shape of a square or rectangular "block". For example, the paragraph
+    below is a block of text.</p>
 </body>
 
-<table>
+<div class="table">
     <table border="1|0">
-
-    <tr>
-        <th>Mad Header</th>
-        <th>Wow Another Header</th>
-    </tr>
-</table>
+        <tr>
+            <th>Mad Header</th>
+            <th>Wow Another Header</th>
+        </tr>
+        <td><img src="https://wallscover.com/images/cool-6.jpg" height="100px" alt="Mountain View"></td>
+        <td><img src="https://wallscover.com/images/cool-6.jpg" height="100px" alt="Mountain View"></td>
+    </table>
+</div>
 
     <body>
-    <img src="https://wallscover.com/images/cool-6.jpg" height="100px" alt="Mountain View">
+
+    <p>This button increases age</p>
+    <button onclick="editAge()">Increase Age</button>
+
     </body>
 
+    <br/>
+    <br/>
+
+    <form id="form">
+        Name: <br/> <input name="name" type="text" size="30"/> <br/>
+        Age: <br/> <input name="age" type="number" size="10"/> <br/>
+        Job: <br/> <input name="job" type="text" size="30"/> <br/>
+
+    </form>
+    <button onclick="function3()">Submit</button>
+    <br/>
+    <br/>
+    <br/>
+
+    <form id="fizz">
+
+        Number: <br/><input name="number1" type="number" size="10"/><br/>
+        Word if div by 3: <br/><input name="word333" type="text" size="15"/><br/>
+        word if div by 5: <br/><input name="word555" type="text" size="15"/><br/>
+    </form>
+    <br/>
+    <button onclick="fizzBuzz();">Submit</button>
+
+
 </html>
+
+
+<!--
+<p>I dare you to press the button below</p>
+
+<button onclick="myFunction1()">Don' Press</button>
+<script>
+    function myFunction1(){
+        window.alert("You failed snake");
+    }
+</script>
+
+-->
+
+
+
 
